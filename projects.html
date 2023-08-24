@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .container{
+            display:grid;
+            grid-gap:1rem;
+           background-color: rgb(219, 194, 244);
+           padding:34px;
+           grid-template-areas:
+           'content  aside'
+           'footer  footer'; 
+        }
+        .box{
+            background-color: whitesmoke;
+            border:3px solid white;
+            border-radius: 10px;
+            padding: 12px;
+            width:85%;
+            font-size: large;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #content{ grid-area: content;}
+        #aside{
+            grid-area: aside;
+            width: 80%;
+            
+            margin: 0 auto;
+        }
+        footer{
+            grid-area: footer;
+        }
+        .box .workspace{
+            display: block;
+            color:#cba01e;
+            font-size: larger;
+            font-weight: 600;
+            
+            
+
+        }
+        .box{
+            padding: 12px 42px;
+        }
+        h2{
+            text-decoration:underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">MyPortfolio</div>
+            <div class="right">
+               <ul><li class="item" id="home"><a href=''>Home</a></li>
+                <li class="item" id="roi"><a href="/about">About</a></li>
+                <li class="item" id="join" ><a href="/services">Services</a></li>
+                <li class="item" id="market"><a href="/projects">Projects</a></li>
+                <li class="item" id="market"><a href="/contact">Contact</a></li>
+        </ul> 
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+       
+        <div id="content" class="box">
+            <div class="workspace">Software Developer</div>
+               <div class="workspace"> Appify This, Mumbai</div>
+
+<div class="workspace">September 2019–January 2022</div><br>
+<div><h2>Key Qualifications & Responsibilities</h2><ul>
+    <li>Designed an e-commerce application for a retailer that boosted the number of active users by 27%
+</li>
+<li>Ran software testing projects that led to a 48% decrease in critical errors in developed apps </li>
+<li>Built RESTful APIs to support the data analysis of customers’ shopping habits for a cosmetics company</li>
+<li>Collaborated with a team of 7 using the agile methodology</li>
+</ul><br>
+<h2>Key Achievements</h2><br>
+<ul><li>Increased the time on page for the average user of an e-commerce app by 4 minutes by creating new JavaScript component</li>
+    <li>Worked with other junior developers on improving the app loading speed by 6%</li></ul></div>
+        </div>
+        <div id="aside"class="box"><div class="workspace">Junior Software Developer
+        </div><div class="workspace">Webolution, Mumbai</div>
+        <div class="workspace">May 2018–August 2019</div><br>
+        <div><h2>Key Qualifications & Responsibilities</h2>
+        <ul><li>Ran tests for the company product and helped to decrease the number of errors by 5%</li>
+        <li>Implemented RESTful APIs in Django for the internal analytics team to help increase their reporting speed</li>
+    <li>Worked with other junior developers on improving the app loading speed by 6%</li></ul><br>
+    <h2>Key Achievements</h2><br>
+<ul><li>Fixed the company app error that helped to reduce the customer complaint rate by 17%</li></ul></div>
+    <!-- <footer class="box"></footer> -->
+</html>
