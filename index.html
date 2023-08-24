@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    *{
+      margin: 0%;
+      padding: 0%; 
+    }
+ body{
+    background-color:  whitesmoke;
+    color: rebeccapurple;
+    font-family: 'Poppins', sans-serif;
+ }
+ nav{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    height:60px ;
+    background-color: rebeccapurple;
+    
+    justify-content: center;
+ }
+ nav ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 350px;
+ }
+ nav ul li{
+    list-style: none;
+    margin:18px 23px;
+    
+ }
+ ul  li a{
+   text-decoration: none;
+   color: white;
+   
+ }
+ nav ul li a:hover{
+   font-weight: 600;
+   font-size: 1.1rem;
+   cursor: pointer;
+ }
+ .left{
+    margin:12px 14px;
+    font-size: 2rem;
+    padding-right: 200px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    color:white;
+    padding-bottom: 4px;
+    left:4px;
+    padding-bottom: auto;
+ }
+ .firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 13px 0;
+    margin-top: 13px 0;
+    margin-bottom:150px;
+    height: 80vh;
+ }
+ 
+ .firstsection >div{
+    display: flex;
+    justify-content: space-around;
+    margin: 13px 0;
+    width: 30%;
+    align-items: center;
+    /* flex-direction: row; */
+    
+ }
+ .leftsection{
+    /* background-color: rgb(5, 68, 68); */
+    font-size: 2rem;
+    color:rgb(121, 64, 178);
+    /* display: inline-flex; */
+    /* height:800px; */
+ }
+ .rightsection{
+    /* background-color:rgb(5, 68, 68); */
+ }
+ .rightsection img{
+   height: 100%;
+   width:100%;
+ }
+ main hr{
+   border: 0px;
+   background: rebeccapurple;
+   height: 1.2px;
+   margin:40px 84px;
+   
+ }
+ .secondsection{
+   max-width: 80vh;
+   margin:auto 7rem;
+   height: 80vh;
+ }
+ .secondsection h1{
+   font-size:1.9rem;
+   color:rgb(121, 64, 178);
+
+
+ }
+ .rece{
+   color: rebeccapurple;
+ }
+ .secondsection .box{
+   background-color: rebeccapurple;
+   width:150vh;
+   height:1.5px;
+   margin:50px 0;
+   display: flex;
+ }
+ .secondsection .vertical{
+   height:70px;
+   width: 1.5px;
+   background-color: rebeccapurple;
+   margin:0 100px;
+
+ }
+ .vertical img{
+   width: 60px;
+   position: relative;
+   top:-70px;
+   left:-9px;
+
+ }
+ .vertical-title{
+   position:relative;
+
+ }
+ .vertical-desc{
+   position: relative;
+   font-size: 9px;
+   width:150px;
+ }
+ footer{
+  background-color: rebeccapurple;
+  height: 133px;
+  color: white;
+  ;
+ }
+.footer{
+  display: block;
+  margin:23px 122px;
+  justify-content: space-evenly;
+}
+ .footer .footer-first{
+  width:100%;
+  margin:auto;
+  text-align:center ;
+  padding: 4px;
+ }
+ .footer .footer-second{
+  width:100%;
+  margin:auto;
+  text-align:center ;
+padding: 4px;
+ }
+ .footer .third{
+  width:100%;
+  margin:auto;
+  text-align:center ;
+padding: 14px;}
+.name{
+  color:#cba01e;
+}
+#element{
+  color:#cba01e;
+}
+.button{
+  display: block;
+  width: 100%;
+  margin-left:10rem;
+  margin-top: -12rem;
+  align-content: center;
+}
+ .btn{
+  background-color:#cba01e;
+  padding:12px;
+  border-radius: 3px;
+  left: 200px;
+}
+.btn:hover{
+  background-color: #f1b605;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">MyPortfolio</div>
+            <div class="right">
+               <ul><li class="item" id="home"><a href=''>Home</a></li>
+                <li class="item" id="roi"><a href="/about">About</a></li>
+                <li class="item" id="join" ><a href="/services">Services</a></li>
+                <li class="item" id="market"><a href="/projects">Projects</a></li>
+                <li class="item" id="market"><a href="/contact">Contact</a></li>
+        </ul> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+    <div class="leftcontent">
+        Hi, My name is <span class="name">Anamika</span> and I am passionate
+        <span id="element"></span>
+    </div>
+    </div>
+    
+
+
+
+            <div class="rightsection">
+                <img src="img.png" alt="image">
+            </div>
+            
+        </section>
+        <div class="button">
+        <button class="btn">Download Resume</button>
+        <button class="btn">Visit Github</button>
+            </div>
+<hr>
+        <section class="secondsection">
+         <span class="rece">What I have done so far</span>
+         <h1>Work Experience</h1>
+         <div class="box">
+            <div class="vertical">
+               <img src="dev.png" alt="">
+               <div class="vertical-title">
+                  HTML Developer 2010-2012
+               </div>
+             <div class="vertical-desc">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quo quam saepe aspernatur ea esse debitis labore, odit voluptates voluptatum fugit sunt a nulla delectus qui nemo omnis commodi distinctio veritatis aperiam nostrum voluptate.
+
+             </div>  
+               
+            </div>
+            <div class="vertical"><img src="dev.png" alt="">
+               <div class="vertical-title">
+                  Node.js Developer 2012-2013
+               </div>
+             <div class="vertical-desc">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quo quam saepe aspernatur ea esse debitis labore, odit voluptates voluptatum fugit sunt a nulla delectus qui nemo omnis commodi distinctio veritatis aperiam nostrum voluptate.
+
+             </div></div>
+            <div class="vertical"><img src="dev.png" alt="">
+               <div class="vertical-title">
+                  HTML Developer 2010-2012
+               </div>
+             <div class="vertical-desc">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quo quam saepe aspernatur ea esse debitis labore, odit voluptates voluptatum fugit sunt a nulla delectus qui nemo omnis commodi distinctio veritatis aperiam nostrum voluptate.
+
+             </div></div>
+            <div class="vertical"><img src="dev.png" alt="">
+               <div class="vertical-title">
+                  HTML Developer 2010-2012
+               </div>
+             <div class="vertical-desc">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque quo quam saepe aspernatur ea esse debitis labore, odit voluptates voluptatum fugit sunt a nulla delectus qui nemo omnis commodi distinctio veritatis aperiam nostrum voluptate.
+
+             </div></div>
+            <div class="vertical"></div>
+         </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first"><h3> @Myportfolio</h3></div>
+        <div class="third">Copyright &#169;proto.ac.in</div>
+        <div class="footer-second">www.Myportfolio.com  |  All rights reserved</div>
+        
+        
+      </div>
+    </footer>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation!  -->
+    <!-- Element to contain animated typing -->
+  <!-- <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+
+  <!-- Setup and start animation! -->
+   <script>
+    var typed = new Typed('#element', {
+      strings: ['Graphic Designer', 'Content Creator','Web Developer'],
+      typeSpeed: 50,
+    }); 
+  </script>
+</body>
+ 
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>  
+</body>
+</html>
